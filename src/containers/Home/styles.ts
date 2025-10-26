@@ -3,7 +3,6 @@ import { colors, fonts } from '../../styles'
 import backgroundhero from '../../assets/images/background-hero.png'
 
 export const HomeContainer = styled.main`
-  padding-top: 40px;
   display: flex;
   align-items: center;
   height: 100vh;

@@ -30,5 +30,6 @@ export const GlobalCss = createGlobalStyle`
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
   }
 `
