@@ -32,4 +32,10 @@ export const GlobalCss = createGlobalStyle`
     margin: 0 auto;
     padding-top: 40px;
   }
+
+  .button-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 `
