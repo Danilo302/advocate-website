@@ -38,4 +38,9 @@ export const GlobalCss = createGlobalStyle`
     justify-content: center;
     margin-bottom: 40px;
   }
+
+  .background-dark {
+    background-color: ${colors.primary};
+    color: ${colors.alternative};
+  }
 `
