@@ -1,11 +1,11 @@
 import Perfil from '../../assets/images/profile.png'
 import Button from '../../components/Button'
 import { ProfileImage } from '../Home/styles'
-import { AboutContainer, Content } from './styles'
+import { AboutContainer, Content, SectionAbout } from './styles'
 
 const About = () => {
   return (
-    <section className="background-dark">
+    <SectionAbout className="background-dark">
       <AboutContainer className="container">
         <div>
           <ProfileImage src={Perfil} alt="" />
@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
       </AboutContainer>
-    </section>
+    </SectionAbout>
   )
 }
 

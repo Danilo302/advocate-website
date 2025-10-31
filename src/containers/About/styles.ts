@@ -1,5 +1,29 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
+import backgroundAbout from '../../assets/images/background-about.png'
+
+export const SectionAbout = styled.section`
+  background-image: url(${backgroundAbout});
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+`
 
 export const AboutContainer = styled.div`
   display: flex;
