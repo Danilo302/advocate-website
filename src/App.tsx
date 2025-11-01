@@ -4,6 +4,7 @@ import { GlobalCss } from './styles'
 import PractieAreas from './containers/PracticeAreas'
 import About from './containers/About'
 import Works from './containers/Works'
+import Faq from './containers/Faq'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PractieAreas />
       <About />
       <Works />
+      <Faq />
     </>
   )
 }

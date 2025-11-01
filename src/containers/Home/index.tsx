@@ -13,7 +13,7 @@ const Home = () => {
     <HomeContainer>
       <Description className="container">
         <div>
-          <Title>Thayne Kilder</Title>
+          <Title>Thayane Kilder</Title>
           <p>ADVOGADA</p>
           <TextContainer>
             <h2>
