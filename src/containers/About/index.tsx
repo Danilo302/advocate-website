@@ -1,4 +1,4 @@
-import Perfil from '../../assets/images/profile.png'
+import Perfil from '../../assets/images/hero.png'
 import Button from '../../components/Button'
 import { ProfileImage } from '../Home/styles'
 import { AboutContainer, Content, SectionAbout } from './styles'
@@ -14,10 +14,13 @@ const About = () => {
           <Content>
             <h2>Quem vai acompanhar seu Processo?</h2>
             <p>
-              Olá! Eu sou a Thayane, advogada apaixonada por ajudar pessoas a
-              navegarem pelo sistema jurídico com confiança e tranquilidade. Com
-              anos de experiência em diversas áreas do direito, estou aqui para
-              oferecer suporte jurídico personalizado e eficaz.
+              Prazer, sou a Dra. Thayane Kilder. Sou advogada e atuo com
+              dedicação nas áreas Cível, de Família, Tributária e Trabalhista,
+              sempre com o compromisso de oferecer um atendimento ético,
+              humanizado e voltado a resultados. Sou pós-graduanda em Processo
+              Civil (Legale) e cursando MBA em Gestão Fiscal e Tributária,
+              buscando constantemente o aprimoramento para entregar o melhor em
+              cada causa⚖️.
             </p>
           </Content>
           <div className="button-area">

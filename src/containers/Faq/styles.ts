@@ -9,6 +9,7 @@ export const FaqList = styled.ul`
   padding: 20px;
 
   li {
+    margin-bottom: 10px;
   }
 
   span {
@@ -16,6 +17,7 @@ export const FaqList = styled.ul`
     margin-right: 10px;
     margin-left: 5px;
     font-size: 24px;
+    color: ${colors.emphasis};
   }
 
   h3 {
@@ -27,8 +29,31 @@ export const FaqList = styled.ul`
   }
 
   p {
-    margin-bottom: 20px;
-    padding: 10px;
     background-color: ${colors.alternative};
+    border-left: 4px solid ${colors.primary};
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+
+    &.open {
+      max-height: 100px;
+      opacity: 1;
+      margin-bottom: 4px;
+      padding: 10px;
+    }
+  }
+`
+export const AreaTitle = styled.div`
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    font-family: 'Lora', serif;
+    color: ${colors.emphasis};
+    font-size: 32px;
+    font-weight: 700;
   }
 `
