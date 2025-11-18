@@ -8,7 +8,6 @@ import {
   Title
 } from './styles'
 import Profile from '../../assets/images/profile3.png'
-import Profile2 from '../../assets/images/profile2.png'
 import Logo from '../../assets/images/Logo.png'
 
 const Home = () => {

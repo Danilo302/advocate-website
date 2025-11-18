@@ -1,21 +1,20 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import { GoLaw } from 'react-icons/go'
-import { CardContainer } from './styles'
+import { CardContainer, CardText, CardTitle } from './styles'
 
-const Card = () => {
+type Props = {
+  title: string
+  text: string
+  icon: string
+}
+
+const Card = ({ title, text, icon }: Props) => {
   return (
     <CardContainer>
-      {React.createElement(GoLaw as unknown as React.ComponentType<any>, {
-        size: 50
-      })}
-      <h3>Divórcio Extrajudicia</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rerum
-        numquam sapiente officia dicta tempora voluptas quasi deserunt
-        recusandae sequi vero beatae, delectus aspernatur voluptatibus quisquam
-        blanditiis ipsam! Quis, unde.
-      </p>
+      <img src={icon} />
+      <CardTitle>{title}</CardTitle>
+      <CardText>{text}</CardText>
     </CardContainer>
   )
 }
