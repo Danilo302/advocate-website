@@ -2,30 +2,38 @@ import Button from '../../components/Button'
 import {
   Description,
   HomeContainer,
+  ProfileConteiner,
   ProfileImage,
   TextContainer,
   Title
 } from './styles'
-import Profile from '../../assets/images/profile.png'
+import Profile from '../../assets/images/profile3.png'
+import Profile2 from '../../assets/images/profile2.png'
+import Logo from '../../assets/images/Logo.png'
 
 const Home = () => {
   return (
     <HomeContainer>
       <Description className="container">
         <div>
-          <Title>Thayane Kilder</Title>
-          <p>ADVOGADA</p>
+          <Title>
+            <img src={Logo} alt="Logo" />
+          </Title>
           <TextContainer>
             <h2>
-              Enfrentando um divórcio? <br /> Eu posso te ajudar.
+              Aposentadoria Sem Complicação <br /> Garanta Seu Melhor Benefício.
+              Fale Conosco no WhatsApp.
             </h2>
-            <span>Dra.Thayne Kilder - Especialista em Direito de Família</span>
+            <span>
+              Atuação Especializada em Direito Previdenciário para Conquistar
+              sua Aposentadoria de Forma Segura, Rápida e sem Erros
+            </span>
             <Button>Entre em contato</Button>
           </TextContainer>
         </div>
-        <div>
+        <ProfileConteiner>
           <ProfileImage src={Profile} alt="" />
-        </div>
+        </ProfileConteiner>
       </Description>
     </HomeContainer>
   )

@@ -4,7 +4,6 @@ import backgroundhero from '../../assets/images/background-hero.png'
 
 export const HomeContainer = styled.main`
   display: flex;
-  align-items: center;
   height: 100vh;
   background-image: url(${backgroundhero});
   background-repeat: no-repeat;
@@ -12,7 +11,6 @@ export const HomeContainer = styled.main`
 `
 export const Description = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
 
   p {
@@ -24,12 +22,15 @@ export const Description = styled.div`
 
 `
 export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   h2 {
     font-family: ${fonts.text};
     font-size: 32px;
     font-weight: 700;
     color: ${colors.alternative};
-    margin-top: 40px;
   }
 
   span {
@@ -38,7 +39,7 @@ export const TextContainer = styled.div`
     font-family: ${fonts.text};
     font-size: 18px;
     font-weight: 500;
-    color: ${colors.alternative};
+    color: ${colors.emphasis};
   }
 `
 
@@ -49,6 +50,11 @@ export const Title = styled.h1`
   font-weight: 700;
   color: ${colors.background};
 `
+export const ProfileConteiner = styled.div`
+  display: flex;
+`
+
 export const ProfileImage = styled.img`
-  width: 660px;
+  width: 900px;
+  height: auto;
 `
