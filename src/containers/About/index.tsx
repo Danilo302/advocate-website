@@ -6,6 +6,7 @@ import { AboutContainer, Content, SectionAbout } from './styles'
 const About = () => {
   return (
     <SectionAbout className="background-dark">
+      <h2>Sobre nós</h2>
       <AboutContainer className="container">
         <div>
           <ProfileImage src={Perfil} alt="" />

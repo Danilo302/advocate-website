@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from 'react'
-import { GoLaw } from 'react-icons/go'
 import { CardContainer, CardText, CardTitle } from './styles'
 
 type Props = {

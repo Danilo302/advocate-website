@@ -7,7 +7,9 @@ import {
   Title
 } from './styles'
 
-import Calc from '../../assets/images/icons/lucro.png'
+import Calc from '../../assets/images/icons/calculator.png'
+import shild from '../../assets/images/icons/shield.png'
+import file from '../../assets/images/icons/document.png'
 
 const PractieAreas = () => {
   return (
@@ -24,14 +26,14 @@ const PractieAreas = () => {
           </PracticeAreaItem>
           <PracticeAreaItem className="item-divider">
             <Card
-              icon={Calc}
+              icon={shild}
               title="Aposentadoria (Idade, Tempo, Especial e Híbrida)"
               text="Atuamos em todas as modalidades de aposentadoria, orientando desde a análise inicial até o protocolo no INSS. Nosso objetivo é assegurar que você receba o benefício correto, sem erros e sem perdas financeiras."
             />
           </PracticeAreaItem>
           <PracticeAreaItem>
             <Card
-              icon={Calc}
+              icon={file}
               title="Recursos e Revisões no INSS"
               text="Se o INSS negou sua aposentadoria ou concedeu um valor menor do que deveria, realizamos recursos administrativos, revisões e acompanhamento integral até a Justiça, quando necessário."
             />

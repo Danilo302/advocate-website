@@ -10,8 +10,6 @@ export const HomeContainer = styled.main`
   background-size: cover;
 `
 export const Description = styled.div`
-  display: flex;
-  justify-content: space-between;
 
   p {
     font-family: ${fonts.text};
@@ -25,6 +23,7 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
   h2 {
     font-family: ${fonts.text};
@@ -44,15 +43,16 @@ export const TextContainer = styled.div`
 `
 
 export const Title = styled.h1`
-  padding-top: 60px;
-  font-family: ${fonts.title};
-  font-size: 64px;
-  font-weight: 700;
-  color: ${colors.background};
+  ddisplay: flex;
+  text-align: center;
+  justify-content: center;
+
+  img {
+    width: 600px;
+    height: auto;
+  }
 `
-export const ProfileConteiner = styled.div`
-  display: flex;
-`
+export const ProfileConteiner = styled.div``
 
 export const ProfileImage = styled.img`
   width: 900px;

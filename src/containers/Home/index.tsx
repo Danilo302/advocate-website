@@ -7,7 +7,7 @@ import {
   TextContainer,
   Title
 } from './styles'
-import Profile from '../../assets/images/profile3.png'
+// import Profile from '../../assets/images/teste.png'
 import Logo from '../../assets/images/Logo.png'
 
 const Home = () => {
@@ -30,9 +30,9 @@ const Home = () => {
             <Button>Entre em contato</Button>
           </TextContainer>
         </div>
-        <ProfileConteiner>
+        {/* <ProfileConteiner>
           <ProfileImage src={Profile} alt="" />
-        </ProfileConteiner>
+        </ProfileConteiner> */}
       </Description>
     </HomeContainer>
   )
