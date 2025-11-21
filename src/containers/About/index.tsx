@@ -1,33 +1,43 @@
-import Perfil from '../../assets/images/hero.png'
-import Button from '../../components/Button'
-import { ProfileImage } from '../Home/styles'
 import { AboutContainer, Content, SectionAbout } from './styles'
+import Profile from '../../assets/images/profile.png'
+import Profile2 from '../../assets/images/profile2.png'
 
 const About = () => {
   return (
-    <SectionAbout className="background-dark">
-      <h2>Sobre nós</h2>
+    <SectionAbout>
       <AboutContainer className="container">
-        <div>
-          <ProfileImage src={Perfil} alt="" />
-        </div>
-        <div>
-          <Content>
-            <h2>Quem vai acompanhar seu Processo?</h2>
+        <Content>
+          <img src={Profile} alt="" />
+          <div>
+            <h2>Dra. Thayane Kilder</h2>
             <p>
-              Prazer, sou a Dra. Thayane Kilder. Sou advogada e atuo com
-              dedicação nas áreas Cível, de Família, Tributária e Trabalhista,
-              sempre com o compromisso de oferecer um atendimento ético,
-              humanizado e voltado a resultados. Sou pós-graduanda em Processo
-              Civil (Legale) e cursando MBA em Gestão Fiscal e Tributária,
-              buscando constantemente o aprimoramento para entregar o melhor em
-              cada causa⚖️.
+              Dra. Thayane Kilder é advogada atuante nas áreas Cível, Família,
+              Trabalhista, Tributário e Previdenciário, com sólida experiência
+              em atendimento estratégico e humanizado. Pós-graduanda em Processo
+              Civil pela Legale e cursando MBA em Gestão Fiscal e Tributária,
+              alia conhecimento técnico à empatia no tratamento de cada caso.
+              Comprometida com ética, transparência e resultados, oferece
+              soluções jurídicas claras e eficazes, sempre focada na melhor
+              defesa dos interesses de seus clientes.
             </p>
-          </Content>
-          <div className="button-area">
-            <Button>Fale agora com a advogada</Button>
           </div>
-        </div>
+        </Content>
+        <Content>
+          <div>
+            <h2>Dr. Dhiego Monteiro</h2>
+            <p>
+              Dr. Dhiego Monteiro é advogado especializado em Direito de Família
+              e Direito Civil, com mais de quatro anos de experiência prática.
+              Graduado pela UNISUAM e pós-graduando em Direito Previdenciário e
+              de Família pela Legale, destaca-se pelo atendimento cuidadoso,
+              estratégico e humanizado. Sua atuação é pautada na
+              responsabilidade, empatia e entrega de soluções jurídicas
+              eficientes, sempre priorizando a proteção e o bem-estar de seus
+              clientes.
+            </p>
+          </div>
+          <img src={Profile2} alt="" />
+        </Content>
       </AboutContainer>
     </SectionAbout>
   )

@@ -8,8 +8,12 @@ export const HomeContainer = styled.main`
   background-image: url(${backgroundhero});
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  justify-content: center;
 `
 export const Description = styled.div`
+  position: absolute;
+  z-index: 2;
 
   p {
     font-family: ${fonts.text};
@@ -17,7 +21,15 @@ export const Description = styled.div`
     font-weight: 700;
     color: ${colors.emphasis};
     text-align: left;
+  }
 
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 10px;
+  }
 `
 export const TextContainer = styled.div`
   display: flex;
@@ -40,6 +52,26 @@ export const TextContainer = styled.div`
     font-weight: 500;
     color: ${colors.emphasis};
   }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
 `
 
 export const Title = styled.h1`
@@ -51,10 +83,16 @@ export const Title = styled.h1`
     width: 600px;
     height: auto;
   }
-`
-export const ProfileConteiner = styled.div``
 
-export const ProfileImage = styled.img`
-  width: 900px;
-  height: auto;
+  @media (max-width: 768px) {
+    img {
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 300px;
+    }
+  }
 `
