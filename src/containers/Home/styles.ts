@@ -108,6 +108,12 @@ export const Title = styled.h1`
     }
   }
 
+  @media (max-height: 768px) {
+    img {
+      width: 400px;
+    }
+  }
+
   @media (max-width: 768px) {
     img {
       width: 400px;
