@@ -16,8 +16,8 @@ const Home = () => {
             Fale Conosco no WhatsApp.
           </h2>
           <span>
-            Atuação Especializada em Direito Previdenciário para Conquistar sua
-            Aposentadoria de Forma Segura, Rápida e sem Erros
+            Atuação especializada em Direito Previdenciário para conquistar sua
+            aposentadoria de forma segura, rápida e sem erros.
           </span>
           <Button>Entre em contato</Button>
         </TextContainer>

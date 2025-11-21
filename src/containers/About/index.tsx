@@ -1,11 +1,12 @@
 import { AboutContainer, Content, SectionAbout } from './styles'
-import Profile from '../../assets/images/profile.png'
+import Profile from '../../assets/images/hero.png'
 import Profile2 from '../../assets/images/profile2.png'
 
 const About = () => {
   return (
     <SectionAbout>
       <AboutContainer className="container">
+        <h1>Sobre Nós</h1>
         <Content>
           <img src={Profile} alt="" />
           <div>
@@ -22,7 +23,7 @@ const About = () => {
             </p>
           </div>
         </Content>
-        <Content>
+        <Content className="alternateColor">
           <div>
             <h2>Dr. Dhiego Monteiro</h2>
             <p>
