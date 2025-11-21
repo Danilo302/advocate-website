@@ -28,6 +28,12 @@ GradientType=0
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
+
+
 `
 
 export const AboutContainer = styled.div`
@@ -52,6 +58,23 @@ export const AboutContainer = styled.div`
       color: ${colors.alternative};
     }
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    .alternateColor {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
 `
 export const Content = styled.div`
   background-color: ${colors.alternative};
@@ -72,7 +95,6 @@ export const Content = styled.div`
     border-image: linear-gradient(
         to right,
         #f6dba6,
-        #ffebc4,
         #f0be79,
         #8f653b,
         #673d22,
@@ -113,5 +135,40 @@ export const Content = styled.div`
         #eebc70
       )
       1;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    padding: 20px;
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    img {
+      width: 250px;
+      margin: 16px 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    img {
+      width: 200px;
+    }
   }
 `
