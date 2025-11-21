@@ -10,6 +10,10 @@ export const HomeContainer = styled.main`
   background-size: cover;
   position: relative;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    background-position: center;
+  }
 `
 export const Description = styled.div`
   position: absolute;
@@ -21,6 +25,10 @@ export const Description = styled.div`
     font-weight: 700;
     color: ${colors.emphasis};
     text-align: left;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 40px;
   }
 
   @media (max-width: 768px) {
@@ -53,6 +61,16 @@ export const TextContainer = styled.div`
     color: ${colors.emphasis};
   }
 
+  @media (max-width: 1024px) {
+    h2 {
+      font-size: 28px;
+    }
+
+    span {
+      font-size: 17px;
+    }
+  }
+
   @media (max-width: 768px) {
     h2 {
       font-size: 24px;
@@ -82,6 +100,12 @@ export const Title = styled.h1`
   img {
     width: 600px;
     height: auto;
+  }
+
+  @media (max-width: 1024px) {
+    img {
+      width: 400px;
+    }
   }
 
   @media (max-width: 768px) {
