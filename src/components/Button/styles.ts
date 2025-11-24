@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
 
-export const ButtonStyles = styled.button`
+export const ButtonStyles = styled.a`
   padding: 12px 24px;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: ${colors.alternative};
   background-color: ${colors.emphasis};

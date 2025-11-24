@@ -43,4 +43,8 @@ export const GlobalCss = createGlobalStyle`
     background-color: ${colors.primary};
     color: ${colors.alternative};
   }
+
+  a {
+    color: inherit;
+  }
 `

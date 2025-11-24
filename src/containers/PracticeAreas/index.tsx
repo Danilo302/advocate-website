@@ -47,7 +47,7 @@ const PractieAreas = () => {
           está pronta para ajudar com atendimento técnico e humanizado.
         </DescriptionText>
         <div className="button-area">
-          <Button>Fale agora com a advogada</Button>
+          <Button>Fale Conosco</Button>
         </div>
       </div>
     </section>
