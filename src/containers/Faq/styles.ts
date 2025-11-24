@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colors } from '../../styles'
+import { colors, fonts } from '../../styles'
 
 export const FaqList = styled.ul`
   display: flex;
@@ -16,7 +16,7 @@ export const FaqList = styled.ul`
     font-weight: bold;
     margin-right: 10px;
     margin-left: 5px;
-    font-size: 24px;
+    font-size: 32px;
     color: ${colors.emphasis};
   }
 
@@ -25,7 +25,8 @@ export const FaqList = styled.ul`
     border-bottom: 1px solid #ddd;
     background-color: ${colors.primary};
     color: ${colors.alternative};
-    padding: 10px;
+    padding: 24px;
+    font-size: 24px;
   }
 
   p {
@@ -35,6 +36,8 @@ export const FaqList = styled.ul`
     opacity: 0;
     overflow: hidden;
     transition: all 0.4s ease;
+    font-size: 20px;
+    font-family: ${fonts.text};
 
     &.open {
       max-height: 100px;
@@ -51,7 +54,7 @@ export const AreaTitle = styled.div`
   justify-content: center;
 
   h2 {
-    font-family: 'Lora', serif;
+    font-family: ${fonts.title};
     color: ${colors.emphasis};
     font-size: 32px;
     font-weight: 700;
