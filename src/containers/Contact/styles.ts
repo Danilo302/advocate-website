@@ -15,7 +15,7 @@ export const ContactContainer = styled.section`
   }
 
   ul {
-    margin-top: 32px;
+    margin: 32px 0;
     display: flex;
     justify-content: center;
   }
@@ -35,6 +35,27 @@ export const ContactContainer = styled.section`
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    li {
+      margin: 12px 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 36px;
+    }
+
+    li {
+      font-size: 20px;
     }
   }
 `

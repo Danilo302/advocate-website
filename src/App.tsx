@@ -6,6 +6,7 @@ import About from './containers/About'
 import Works from './containers/Works'
 import Faq from './containers/Faq'
 import Contact from './containers/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Works />
       <Faq />
       <Contact />
+      <Footer />
     </>
   )
 }
