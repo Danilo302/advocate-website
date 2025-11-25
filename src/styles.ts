@@ -20,10 +20,13 @@ export const GlobalCss = createGlobalStyle`
     font-family: Roboto, sans-serif;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: ${colors.emphasis} ${colors.secondary};
 
     body {
       background-color: ${colors.background};
-    }
+      }
 }
 
   .container {

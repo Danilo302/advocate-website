@@ -14,7 +14,7 @@ const Faq = () => {
   }
 
   return (
-    <section>
+    <section id="faq">
       <div className="container">
         <AreaTitle>
           <h2>Perguntas Frequentes</h2>

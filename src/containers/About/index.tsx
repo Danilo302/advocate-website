@@ -4,7 +4,7 @@ import Profile2 from '../../assets/images/profile2.png'
 
 const About = () => {
   return (
-    <SectionAbout>
+    <SectionAbout id="about">
       <AboutContainer className="container">
         <h1>Sobre Nós</h1>
         <Content>

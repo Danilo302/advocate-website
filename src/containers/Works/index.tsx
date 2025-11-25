@@ -6,7 +6,7 @@ import { Item, ItensContainer, Title, WorksContainer } from './styles'
 
 const Works = () => {
   return (
-    <WorksContainer>
+    <WorksContainer id="works">
       <div className="container">
         <Title>Como funciona o acompanhamento processual jurídico?</Title>
         <ItensContainer>

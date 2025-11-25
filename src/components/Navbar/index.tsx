@@ -9,22 +9,22 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <a href="">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="">Atuação Previdenciária</a>
+          <a href="#practice-areas">Atuação Previdenciária</a>
         </li>
         <li>
-          <a href="">Sobre nós</a>
+          <a href="#about">Sobre nós</a>
         </li>
         <li>
-          <a href="">Funciona o acompanhamento</a>
+          <a href="#works">Funciona o acompanhamento</a>
         </li>
         <li>
-          <a href="">Perguntas Frequentes</a>
+          <a href="#faq">Perguntas Frequentes</a>
         </li>
         <li>
-          <a href="">Contato</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
     </NavbarStyles>

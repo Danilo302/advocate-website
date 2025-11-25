@@ -13,7 +13,7 @@ import file from '../../assets/images/icons/document.png'
 
 const PractieAreas = () => {
   return (
-    <section>
+    <section id="practice-areas">
       <div className="container">
         <Title>Sobre a Atuação Previdenciária</Title>
         <PracticeAreasList>

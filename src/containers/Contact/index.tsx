@@ -19,7 +19,7 @@ const Location = FaLocationArrow as ComponentType<iconConfig>
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <div className="container">
         <h1>Contato</h1>
         <ul>

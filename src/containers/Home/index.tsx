@@ -5,7 +5,7 @@ import Logo from '../../assets/images/Logo.png'
 
 const Home = () => {
   return (
-    <HomeContainer>
+    <HomeContainer id="home">
       <Description className="container">
         <Title>
           <img src={Logo} alt="Logo" />
