@@ -1,22 +1,33 @@
+import { NavbarStyles } from './styles'
+import Logo from '../../assets/images/logo_secundary.png'
+
 const Navbar = () => {
   return (
-    <nav>
-      <h1></h1>
+    <NavbarStyles>
+      <h1>
+        <img src={Logo} alt="Kilder Advogados Associados" />
+      </h1>
       <ul>
         <li>
-          <a href=""></a>
+          <a href="">Home</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Atuação Previdenciária</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Sobre nós</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Funciona o acompanhamento</a>
+        </li>
+        <li>
+          <a href="">Perguntas Frequentes</a>
+        </li>
+        <li>
+          <a href="">Contato</a>
         </li>
       </ul>
-    </nav>
+    </NavbarStyles>
   )
 }
 

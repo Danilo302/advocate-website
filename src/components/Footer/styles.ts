@@ -13,9 +13,15 @@ export const FooterContainer = styled.footer`
     gap: 1rem;
     flex-wrap: wrap;
     margin-top: 1rem;
+
+    p {
+      font-size: 14px;
+    }
   }
 
   a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
     &:hover {
       font-weight: bold;
       border-bottom: 1px solid ${colors.alternative};

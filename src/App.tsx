@@ -7,11 +7,13 @@ import Works from './containers/Works'
 import Faq from './containers/Faq'
 import Contact from './containers/Contact'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <>
       <GlobalCss />
+      <Navbar />
       <Home />
       <PractieAreas />
       <About />

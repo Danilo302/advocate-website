@@ -27,15 +27,22 @@ export const ContactContainer = styled.section`
     color: ${colors.emphasis};
     display: flex;
     align-items: center;
+  }
+  a {
+    margin-left: 8px;
+    text-decoration: none;
 
-    a {
-      margin-left: 8px;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
+    &:hover {
+      text-decoration: underline;
     }
+  }
+  span {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: ${colors.emphasis};
   }
 
   @media (max-width: 768px) {
@@ -47,6 +54,10 @@ export const ContactContainer = styled.section`
     li {
       margin: 12px 0;
     }
+
+    span {
+      font-size: 18px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -56,6 +67,12 @@ export const ContactContainer = styled.section`
 
     li {
       font-size: 20px;
+    }
+    span {
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 `
