@@ -8,12 +8,14 @@ import Faq from './containers/Faq'
 import Contact from './containers/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import ChatBox from './components/ChatBox'
 
 function App() {
   return (
     <>
       <GlobalCss />
       <Navbar />
+      <ChatBox />
       <Home />
       <PractieAreas />
       <About />
