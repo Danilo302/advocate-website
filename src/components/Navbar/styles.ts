@@ -50,6 +50,8 @@ export const NavbarStyles = styled.nav`
   }
 
   @media (max-width: 768px) {
+    padding: 1rem 2rem;
+
     .icon {
       display: flex;
     }
