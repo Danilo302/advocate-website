@@ -13,7 +13,11 @@ const Whatsapp = FaWhatsapp as unknown as React.ComponentType<{
 
 const Button = ({ children }: Props) => {
   return (
-    <ButtonStyles>
+    <ButtonStyles
+      href="https://wa.me/5521998207416"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Whatsapp size={24} color="#F5F5F5" />
       {children}
     </ButtonStyles>

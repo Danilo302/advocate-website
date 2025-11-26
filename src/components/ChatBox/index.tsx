@@ -16,7 +16,7 @@ const ChatBox = () => {
         rel="noopener noreferrer"
       >
         <WhatsappIcon color="#ffff" />
-        <span>Falar com Advogado</span>
+        <span>Falar com o Advogado</span>
       </a>
     </ChatBoxContainer>
   )
