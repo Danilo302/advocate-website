@@ -22,7 +22,7 @@ export const ChatBoxContainer = styled.div`
   }
 
   a {
-    height: 72px;
+    height: 64px;
     padding: 0 16px;
     display: flex;
     align-items: center;
@@ -47,6 +47,24 @@ export const ChatBoxContainer = styled.div`
     svg {
       width: 50px;
       height: 50px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    bottom: 40px;
+
+    a {
+      height: 60px;
+      padding: 0 12px;
+
+      span {
+        display: none;
+      }
+
+      svg {
+        width: 40px;
+        height: 40px;
+      }
     }
   }
 `
