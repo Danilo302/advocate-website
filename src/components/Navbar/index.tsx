@@ -1,13 +1,32 @@
 import { NavbarStyles } from './styles'
 import Logo from '../../assets/images/logo_secundary.png'
+import { ComponentType, useState } from 'react'
+
+import { FaList, FaRegWindowClose } from 'react-icons/fa'
+import { colors } from '../../styles'
+
+const List = FaList as ComponentType<{ size?: number; color?: string }>
+const Closed = FaRegWindowClose as ComponentType<{
+  size?: number
+  color?: string
+}>
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false)
+
   return (
     <NavbarStyles>
       <h1>
         <img src={Logo} alt="Kilder Advogados Associados" />
       </h1>
-      <ul>
+      <div onClick={() => setOpen(!open)} className="icon">
+        {open ? (
+          <Closed size={30} color={colors.emphasis} />
+        ) : (
+          <List size={30} color={colors.emphasis} />
+        )}
+      </div>
+      <ul className={open ? 'open' : ''}>
         <li>
           <a href="#home">Home</a>
         </li>
