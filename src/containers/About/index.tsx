@@ -7,8 +7,8 @@ const About = () => {
     <SectionAbout id="about">
       <AboutContainer className="container">
         <h1>Sobre Nós</h1>
-        <Content>
-          <img src={Profile} alt="" />
+        <Content data-aos="fade-right">
+          <img src={Profile} alt="Dra. Thayane Kilder" />
           <div>
             <h2>Dra. Thayane Kilder</h2>
             <p>
@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
         </Content>
-        <Content className="alternateColor">
+        <Content className="alternateColor" data-aos="fade-left">
           <div>
             <h2>Dr. Dhiego Monteiro</h2>
             <p>
@@ -37,7 +37,7 @@ const About = () => {
               clientes.
             </p>
           </div>
-          <img src={Profile2} alt="" />
+          <img src={Profile2} alt="Dr. Dhiego Monteiro" />
         </Content>
       </AboutContainer>
     </SectionAbout>

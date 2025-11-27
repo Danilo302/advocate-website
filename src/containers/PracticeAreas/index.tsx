@@ -17,21 +17,21 @@ const PractieAreas = () => {
       <div className="container">
         <Title>Sobre a Atuação Previdenciária</Title>
         <PracticeAreasList>
-          <PracticeAreaItem>
+          <PracticeAreaItem data-aos="fade-up">
             <Card
               icon={Calc}
               title="Cálculo do Melhor Benefício"
               text="Garantimos que você descubra qual é a aposentadoria mais vantajosa conforme seu histórico de contribuições. Realizamos cálculos completos, análises detalhadas e identificamos direitos ocultos que podem aumentar o valor do benefício."
             />
           </PracticeAreaItem>
-          <PracticeAreaItem className="item-divider">
+          <PracticeAreaItem className="item-divider" data-aos="fade-down">
             <Card
               icon={shild}
               title="Aposentadoria (Idade, Tempo, Especial e Híbrida)"
               text="Atuamos em todas as modalidades de aposentadoria, orientando desde a análise inicial até o protocolo no INSS. Nosso objetivo é assegurar que você receba o benefício correto, sem erros e sem perdas financeiras."
             />
           </PracticeAreaItem>
-          <PracticeAreaItem>
+          <PracticeAreaItem data-aos="fade-up">
             <Card
               icon={file}
               title="Recursos e Revisões no INSS"

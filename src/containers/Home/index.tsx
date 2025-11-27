@@ -8,7 +8,7 @@ const Home = () => {
     <HomeContainer id="home">
       <Description className="container">
         <Title>
-          <img src={Logo} alt="Logo" />
+          <img src={Logo} alt="Kilder Advogados Assoaciados" />
         </Title>
         <TextContainer>
           <h2>

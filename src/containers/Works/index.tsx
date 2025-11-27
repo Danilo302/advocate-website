@@ -11,7 +11,7 @@ const Works = () => {
       <div className="container">
         <Title>Como funciona o acompanhamento processual jurídico?</Title>
         <ItensContainer>
-          <Item>
+          <Item data-aos="fade-up">
             {React.createElement(
               FaPhone as unknown as React.ComponentType<any>,
               {
@@ -24,7 +24,7 @@ const Works = () => {
               dúvidas sobre aposentadoria, revisão ou benefício negado.
             </p>
           </Item>
-          <Item>
+          <Item data-aos="fade-up" data-aos-delay="100">
             {React.createElement(
               FaFileAlt as unknown as React.ComponentType<any>,
               {
@@ -38,7 +38,7 @@ const Works = () => {
               à revisão ou ao melhor benefício
             </p>
           </Item>
-          <Item>
+          <Item data-aos="fade-up" data-aos-delay="200">
             {React.createElement(GoLaw as unknown as React.ComponentType<any>, {
               size: 50
             })}
@@ -49,7 +49,7 @@ const Works = () => {
               aumentar as chances de aprovação
             </p>
           </Item>
-          <Item>
+          <Item data-aos="fade-up" data-aos-delay="300">
             {React.createElement(
               FaRegListAlt as unknown as React.ComponentType<any>,
               {

@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
+import 'aos/dist/aos.css'
+
 export const colors = {
   primary: '#5A0F0F',
   secondary: '#2C2C2C',

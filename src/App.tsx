@@ -1,4 +1,6 @@
 import React from 'react'
+import AOS from 'aos'
+
 import Home from './containers/Home'
 import { GlobalCss } from './styles'
 import PractieAreas from './containers/PracticeAreas'
@@ -11,6 +13,10 @@ import Navbar from './components/Navbar'
 import ChatBox from './components/ChatBox'
 
 function App() {
+  AOS.init({
+    duration: 800
+  })
+
   return (
     <>
       <GlobalCss />
