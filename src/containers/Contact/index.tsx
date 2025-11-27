@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLocationArrow
 } from 'react-icons/fa'
+
 import { ContactContainer } from './styles'
 
 type iconConfig = {
@@ -25,7 +26,13 @@ const Contact = () => {
         <ul>
           <li>
             <Envelope />
-            <a href="">email@email.com.br</a>
+            <a
+              href="mailto:kilderadvogadosassociados@gmail.com?subject=Contato%20pelo%20site&body=Olá,%20gostaria%20de%20falar%20sobre..."
+              target="_blank"
+              rel="noreferrer"
+            >
+              kilderadvogadosassociados@gmail.com
+            </a>
           </li>
           <li>
             <Whatsapp />

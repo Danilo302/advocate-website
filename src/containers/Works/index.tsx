@@ -2,6 +2,7 @@
 import React from 'react'
 import { GoLaw } from 'react-icons/go'
 import { FaFileAlt, FaPhone, FaRegListAlt } from 'react-icons/fa'
+
 import { Item, ItensContainer, Title, WorksContainer } from './styles'
 
 const Works = () => {

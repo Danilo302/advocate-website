@@ -1,4 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa'
+
 import { ChatBoxContainer } from './styles'
 
 const WhatsappIcon = FaWhatsapp as React.ComponentType<{

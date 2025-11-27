@@ -1,9 +1,10 @@
-import { NavbarStyles } from './styles'
-import Logo from '../../assets/images/logo_secundary.png'
 import { ComponentType, useState } from 'react'
-
 import { FaList, FaRegWindowClose } from 'react-icons/fa'
+
 import { colors } from '../../styles'
+import { NavbarStyles } from './styles'
+
+import Logo from '../../assets/images/logo_secundary.png'
 
 const List = FaList as ComponentType<{ size?: number; color?: string }>
 const Closed = FaRegWindowClose as ComponentType<{

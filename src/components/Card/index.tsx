@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { CardContainer, CardText, CardTitle } from './styles'
 
 type Props = {

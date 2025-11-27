@@ -1,6 +1,6 @@
 import Button from '../../components/Button'
 import { Description, HomeContainer, TextContainer, Title } from './styles'
-// import Profile from '../../assets/images/teste.png'
+
 import Logo from '../../assets/images/Logo.png'
 
 const Home = () => {
