@@ -31,6 +31,11 @@ export const GlobalCss = createGlobalStyle`
       }
 }
 
+  body, html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
   .container {
     max-width: 1280px;
     width: 100%;

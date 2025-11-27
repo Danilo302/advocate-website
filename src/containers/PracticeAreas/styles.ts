@@ -29,6 +29,13 @@ export const PracticeAreasList = styled.ul`
     border-left: 2px solid ${colors.emphasis};
   }
 
+  @media (max-width: 1280px) {
+    .item-divider {
+      border-right: none;
+      border-left: none;
+    }
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
